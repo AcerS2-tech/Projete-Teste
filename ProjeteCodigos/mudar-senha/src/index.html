@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DairySense - Mudar Senha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-icons">
+            <img src="https://cdn-icons-png.flaticon.com/512/3524/3524636.png" alt="Configurações" id="settings-icon">
+            <img src="https://cdn-icons-png.flaticon.com/512/93/93634.png" alt="Voltar" id="back-icon">
+        </div>
+        <h1>DairySense</h1>
+        <h1>Mudar Senha</h1>
+    </header>
+    <div class="form-container">
+        <form id="mudarSenhaForm">
+            <label for="currentPassword">Senha Atual:</label>
+            <input type="password" id="currentPassword" name="currentPassword" required>
+            
+            <label for="newPassword">Nova Senha:</label>
+            <input type="password" id="newPassword" name="newPassword" required>
+            
+            <label for="confirmPassword">Confirmar Nova Senha:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+            
+            <button type="submit">Mudar Senha</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
